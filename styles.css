@@ -11,3 +11,18 @@ body {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+
+.game-banner {
+    background-image: url(assets/forza.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 60vw;
+    padding: 100px 0;
+}
+
+#poster-1 {
+    background-image: url(assets/games-cover/apex-legends.jpg);
+    background-position: center top;
+}
