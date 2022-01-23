@@ -2,6 +2,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.site-container {
+    padding-top: 10vh;
+}
+
 #search-button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -12,17 +16,18 @@ body {
     border-bottom-right-radius: 0;
 }
 
-
-.game-banner {
-    background-image: url(assets/forza.jpeg);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 60vw;
-    padding: 100px 0;
+.banner-slideshow {
+    display: none;
 }
 
-#poster-1 {
-    background-image: url(assets/games-cover/apex-legends.jpg);
-    background-position: center top;
+.game-title {
+    display: none;
+}
+
+.controller-button {
+    height: 1.5rem;
+}
+
+Footer * p {
+    font-size: 0.8rem;
 }
