@@ -16,6 +16,10 @@ body {
     border-bottom-right-radius: 0;
 }
 
+#xbox-one-s, #xbox-one, #popular-games, #controllers, #headphones {
+    scroll-margin-top: 6vh;
+}
+
 .banner-slideshow {
     display: none;
 }
